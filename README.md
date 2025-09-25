@@ -1,6 +1,6 @@
 # JAI — Discord AI Bot
 
-> **JAI** is a lightweight, multi-purpose Discord bot that brings Google Gemini-powered AI chat, role automation, premium music playback, and server insights to your community—all from a single slash command interface.
+> **JAI** is a lightweight, multi-purpose Discord bot that brings Google Gemini-powered AI chat, role automation, premium music playback, and server insights to your community—all from a single slash-command interface.
 
 ---
 
@@ -15,8 +15,10 @@
 ---
 
 ## 🚀 Quick Start
-1. **Invite JAI** to your server (requires *Manage Server* permission)[36].  
-2. Grant any recommended permissions (read messages, send messages, manage roles, etc.).  
+1. **Invite JAI** to your server using this link:  
+   <https://discord.com/oauth2/authorize?client_id=1411204826699796491>  
+   *(You need the **Manage Server** permission to add bots.)*[38]  
+2. Grant the recommended permissions when prompted.  
 3. Type `/configure` in the channel where you want JAI to operate.
 
 ---
@@ -30,15 +32,15 @@
 | **max_chars**     | Hard cap on visible characters in a single response.                          |
 | **system_prompt** | Custom system instructions for JAI in this channel (tone, persona, etc.).     |
 
-Changes take effect immediately and can be updated at any time by rerunning `/configure`.
+Changes take effect immediately and can be updated any time by rerunning `/configure`.
 
 ---
 
-## 🛡️ Permissions
-- **Read / Send Messages** – Basic interaction  
+## 🛡️ Recommended Permissions
+- **Read / Send Messages** – Basic interaction  
 - **Manage Messages** – Allows JAI to tidy up its own errors or system notices  
-- **Manage Roles** – Required for automatic role assignment  
-- **Embed Links & Attach Files** – Enables rich AI and music embeds
+- **Manage Roles** – Enables automatic role assignment  
+- **Embed Links & Attach Files** – Permits rich AI and music embeds  
 
 Grant only what your server needs; JAI will gracefully degrade if optional scopes are missing.
 
